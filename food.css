@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background:black;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 90px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px ;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    background: url(image.jpg) ;
+    background-size: cover;
+}
+.primary{
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-size: 3.8rem;
+}
+.primary1{
+    padding: 12px;
+    text-align: center;
+    font-size: 3.8rem;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    margin: 17px 17px;
+    cursor: pointer;
+}
+.h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+#h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box1{
+   border: 2px solid brown;
+   padding: 30px;
+   margin: 3px 6px;
+   border-radius: 28px;
+   background-color: rgb(255, 233, 233);
+}
+.image{
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.center{
+    text-align: center;
+}
+.clientsection{
+    margin-top: 30px;
+    background-image:url(image.jpg);
+    height: 200px;
+}
+.clinet{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.clinetitem{
+    padding: 20px;
+}
+.clinet img{
+    height: 80px;
+}
+#contact{
+    margin-top: 30px;
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contactbox input ,textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+.content{
+    border: 3px solid brown;
+    border-radius: 10px;
+    margin:10px;
+}
+footer{
+    margin-top: 20px;
+    background:black;
+    color: white;
+    height: 25px;
+    padding: 9px 20px ;
+}
+/*hover*/
+.btn:hover{
+     color:black ;
+     background-color: goldenrod;
+     border: 4px solid black;
+}
+.content:hover{
+    border: 3px solid goldenrod;
+    font-weight: bolder;
+}
+#services .box1:hover{
+    border: 2px solid gray;
+    background-color:burlywood;
+}
